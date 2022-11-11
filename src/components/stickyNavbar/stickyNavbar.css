@@ -1,0 +1,30 @@
+.sticky-bar-container {
+  display: inline;
+}
+.dropdown {
+  position: relative;
+  display: flex;
+
+  padding: 0.65rem 2rem;
+  width: 200px;
+ 
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  width: 12rem;
+  height: auto;
+
+  padding-top: 3px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover {
+  background-color: rgb(142, 199, 19);
+}

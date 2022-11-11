@@ -1,0 +1,31 @@
+.image-slider {
+  /* position: relative; */
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  width: 1180px;
+  height: 500px;
+}
+
+.slide-desc {
+  position: absolute;
+  margin-top: -350px;
+  margin-left: 800px;
+  color: rgb(248, 243, 243);
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.banner-button {
+  background-color: green;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  text-transform: uppercase;
+  width: 180px;
+}
+.banner-button:hover {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+}

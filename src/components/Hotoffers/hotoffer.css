@@ -1,0 +1,38 @@
+.piece {
+  width: 1000px;
+}
+
+.product-Desc {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 800px;
+}
+.hotoffers-container {
+  width: 350px;
+  display: flex;
+  justify-content: start;
+  background-color: white;
+  height: 450px;
+  align-items: center;
+}
+.productPrice {
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.product-cart {
+  padding: 20px;
+  flex-direction: column;
+
+  width: 50%;
+  height: 90%;
+  /* /background-color: aquamarine;
+  /margin-top: 10px; */
+}
+.product-cart-top {
+  margin-top: 10px;
+  width: 100%;
+  height: 240px;
+}

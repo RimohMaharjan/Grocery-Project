@@ -1,0 +1,59 @@
+.Payment-title {
+  margin: 10px 0px;
+  padding: auto;
+  display: flex;
+  justify-content: center;
+  color: rgb(159, 165, 182);
+  font-size: 32px;
+  font-weight: bold;
+  border: 1px black;
+  border-radius: 5px;
+  background-color: rgb(230, 225, 219);
+}
+
+.payment-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pay-design {
+  padding: 20px;
+  margin: auto;
+  width: 40%;
+
+  justify-content: center;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 10px;
+}
+.payment-title {
+  font-size: 24px;
+  margin: 10px;
+}
+.botton {
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  background-color: grey;
+  color: white;
+
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+.botton:hover {
+  background-color: white;
+  color: black;
+}
